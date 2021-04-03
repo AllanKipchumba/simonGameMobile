@@ -6,18 +6,13 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function() {
+// $(document).keypress(function() {
 
-    nextSequence();
-    // if (!started) {
-
-    //     // $("#level-title").text("Level " + level);
-    //     nextSequence();
-    //     // started = true;
-    // }
-});
+//     nextSequence();
+// });
 
 
+nextSequence();
 
 //animate and play sound when a button is clicked
 $(".btn").click(function() {
